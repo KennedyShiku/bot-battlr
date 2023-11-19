@@ -10,9 +10,13 @@ function App() {
     setSelectedBots([...selectedBots, selectedBot]);
   };
 
+  const handleRemoveBot = (bot) => {
+    setSelectedBots(selectedBots.filter((selectedBot) => selectedBot.id!== bot.id));
+  };
+
   return (
     <div className='content-container'>
-      <BotCollection selectedBots={selectedBots}/>
+      <BotCollection selectedBots={selectedBots} onRemoveBot={handleRemoveBot}/>
       <BotCards onBotSelect={handleBotSelect}/>
     </div>
   );
