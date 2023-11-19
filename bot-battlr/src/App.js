@@ -1,9 +1,10 @@
 import './App.css';
+import BotCollection from './components/BotCollection';
 
 function App() {
   return (
     <div className='content-container'>
-      <h1>Hello World!</h1>
+      <BotCollection />
     </div>
   );
 }
