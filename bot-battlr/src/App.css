@@ -56,6 +56,8 @@
   margin-top: 10px;
   width: 100%;
   max-width: 300px;
+  background-color: #fff;
+  margin-bottom: 10px;
 }
 
 .bot-card:hover {
