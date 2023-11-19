@@ -34,6 +34,49 @@
   color: #61dafb;
 }
 
+.bot-cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bot-card-container {
+  max-width: 100px; 
+  margin: 0 auto;
+}
+
+.bot-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  margin-top: 10px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.bot-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.bot-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.bot-details {
+  margin-top: 10px;
+}
+
+.bot-collection {
+  background-color: #39FF14;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
