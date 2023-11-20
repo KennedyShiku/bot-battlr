@@ -20,7 +20,7 @@ function App() {
   };
 
   const handleDischargeClick = (botToDischarge) => {
-    fetch(`http://localhost:3000/bots/${botToDischarge.id}`,{
+    fetch(`https://bot-battler-hen2.onrender.com/bots/${botToDischarge.id}`,{
       method: 'DELETE',
     })
     .then(response => {

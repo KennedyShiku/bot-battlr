@@ -4,7 +4,7 @@
     const [bots, setBots] = useState([]);
 
     useEffect(() => {
-      fetch("http://localhost:3000/bots")
+      fetch("https://bot-battler-hen2.onrender.com/bots")
     .then((response) => response.json())
     .then((data) => setBots(data))
     .catch((error) => console.log("Error fetching data: " + error));
